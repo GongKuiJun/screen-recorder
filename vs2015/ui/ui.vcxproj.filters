@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="view\main_view.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="view\main_view_ui.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="view\setting_view.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="view\setting_view_ui.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="view\main_view.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="view\setting_view.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="view">
+      <UniqueIdentifier>{1ca893f8-bed8-4ab4-9d56-ad2d7c5e4a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{7f368069-c55e-4368-8a64-30a31a770d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{5762333a-446e-4e3c-aade-422dc131a30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\main">
+      <UniqueIdentifier>{c852e04b-5678-4e4b-aec0-cabb5e7313ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\lang">
+      <UniqueIdentifier>{eaa7688e-a227-45ff-8a11-59b31c2e3fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\setting">
+      <UniqueIdentifier>{cc872ebb-b3a8-475e-be7c-a1d4d0e74178}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="resources\themes\default\main\main.xml">
+      <Filter>resources\main</Filter>
+    </Xml>
+    <Xml Include="resources\themes\default\global.xml">
+      <Filter>resources</Filter>
+    </Xml>
+    <Xml Include="resources\themes\default\setting\setting.xml">
+      <Filter>resources\setting</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ui.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="logo.ico">
+      <Filter>resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\lang\en_US\gdstrings.ini">
+      <Filter>resources\lang</Filter>
+    </None>
+    <None Include="resources\lang\zh_CN\gdstrings.ini">
+      <Filter>resources\lang</Filter>
+    </None>
+  </ItemGroup>
+</Project>
